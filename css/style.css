@@ -2486,12 +2486,29 @@ img {
     .products-showcase {
         grid-template-columns: 1fr;
         padding: 0 25px;
+        justify-items: center;
+    }
+    .product-card {
+        width: 100%;
+        max-width: 400px;
+    }
+    .product-info {
+        text-align: center;
     }
     .menu-grid {
         grid-template-columns: 1fr;
     }
     .values-grid {
         grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .value-card {
+        text-align: center;
+        max-width: 100%;
+    }
+    .value-number {
+        margin-left: auto;
+        margin-right: auto;
     }
     .team-grid {
         grid-template-columns: 1fr;
@@ -2502,6 +2519,11 @@ img {
     .about-stats {
         flex-direction: column;
         gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .stat-item {
+        text-align: center;
     }
     .hero-title .title-word {
         font-size: clamp(2.5rem, 10vw, 4rem);
@@ -2512,6 +2534,9 @@ img {
     }
     .contact-form {
         padding: 30px;
+    }
+    .contact-info-col {
+        text-align: center;
     }
     .footer-bottom .container {
         flex-direction: column;
@@ -2533,17 +2558,25 @@ img {
         grid-template-columns: 1fr !important;
         min-width: auto !important;
         padding: 20px 0 40px 0 !important;
+        justify-items: center;
     }
     .process-card {
         min-width: auto !important;
         max-width: 100% !important;
         padding: 35px 20px !important;
+        text-align: center;
+        width: 100%;
     }
     .process-track {
         overflow-x: visible !important;
         padding: 0 !important;
         width: 100% !important;
         overflow: visible !important;
+        display: flex;
+        justify-content: center;
+    }
+    .process-icon {
+        margin: 0 auto;
     }
     .section-process {
         overflow: visible !important;

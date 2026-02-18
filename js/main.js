@@ -177,6 +177,8 @@
             this.isOpen = !this.isOpen;
             this.toggle.classList.toggle('active', this.isOpen);
             this.menu.classList.toggle('active', this.isOpen);
+            document.documentElement.classList.toggle('mobile-menu-open', this.isOpen);
+            document.body.classList.toggle('mobile-menu-open', this.isOpen);
             document.body.style.overflow = this.isOpen ? 'hidden' : '';
         }
 
@@ -184,6 +186,8 @@
             this.isOpen = false;
             this.toggle.classList.remove('active');
             this.menu.classList.remove('active');
+            document.documentElement.classList.remove('mobile-menu-open');
+            document.body.classList.remove('mobile-menu-open');
             document.body.style.overflow = '';
         }
     }
