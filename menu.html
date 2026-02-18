@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Creazioni | Dolce Vita Pasticceria</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-line"></div>
+            <div class="preloader-text">
+                <span class="preloader-word">DOLCE</span>
+                <span class="preloader-word">VITA</span>
+            </div>
+            <div class="preloader-counter"><span id="preloader-number">0</span>%</div>
+        </div>
+    </div>
+
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">Dolce Vita</span>
+                <span class="logo-sub">Pasticceria dal 1987</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link" data-text="Home">Home</a></li>
+                <li><a href="about.html" class="nav-link" data-text="Chi Siamo">Chi Siamo</a></li>
+                <li><a href="menu.html" class="nav-link active" data-text="Creazioni">Creazioni</a></li>
+                <li><a href="gallery.html" class="nav-link" data-text="Galleria">Galleria</a></li>
+                <li><a href="contact.html" class="nav-link" data-text="Contatti">Contatti</a></li>
+            </ul>
+            <a href="contact.html" class="nav-cta magnetic-btn"><span>Prenota</span></a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div id="mobileMenu" class="mobile-menu">
+        <div class="mobile-menu-bg"></div>
+        <div class="mobile-menu-content">
+            <ul class="mobile-nav-links">
+                <li><a href="index.html" class="mobile-link">Home</a></li>
+                <li><a href="about.html" class="mobile-link">Chi Siamo</a></li>
+                <li><a href="menu.html" class="mobile-link">Creazioni</a></li>
+                <li><a href="gallery.html" class="mobile-link">Galleria</a></li>
+                <li><a href="contact.html" class="mobile-link">Contatti</a></li>
+            </ul>
+            <div class="mobile-menu-footer">
+                <p>Via Roma 42, Milano</p>
+                <p>+39 02 1234 5678</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="page-hero page-hero-short">
+        <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=1920&q=80')"></div>
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            
+            <h1 class="page-hero-title">
+                <span class="title-line"><span class="title-word">Le Nostre</span></span>
+                <span class="title-line"><span class="title-word">Creazioni</span></span>
+            </h1>
+        </div>
+    </section>
+
+    <!-- MENU FILTER -->
+    <section class="section section-menu">
+        <div class="container">
+            <div class="menu-filters reveal-up">
+                <button class="filter-btn active" data-filter="all">Tutto</button>
+                <button class="filter-btn" data-filter="torte">Torte</button>
+                <button class="filter-btn" data-filter="viennoiserie">Viennoiserie</button>
+                <button class="filter-btn" data-filter="mignon">Mignon</button>
+                <button class="filter-btn" data-filter="stagionali">Stagionali</button>
+                <button class="filter-btn" data-filter="wedding">Wedding</button>
+            </div>
+
+            <div class="menu-grid" id="menuGrid">
+
+                <div class="menu-item reveal-up" data-category="torte">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80" alt="Fondente Noir">
+                        <div class="menu-item-badge">Best Seller</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Fondente Noir</h3>
+                            <span class="menu-item-price">45,00</span>
+                        </div>
+                        <p>Cioccolato fondente 72% Valrhona, ganache montata, biscuit al cacao, foglie d'oro 24k.</p>
+                        <div class="menu-item-tags">
+                            <span>Senza Glutine</span>
+                            <span>Premium</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item reveal-up" data-category="viennoiserie">
+                    <div class="menu-item-image">
+                        <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?w=600&q=80" alt="Croissant Classico">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Croissant Classico</h3>
+                            <span class="menu-item-price">3,50</span>
+                        </div>
+                        <p>Burro francese AOP, laminazione a 27 strati, lievitazione naturale 48 ore. Croccante e sfogliato.</p>
+                        <div class="menu-item-tags">
+                            <span>Classico</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item reveal-up" data-category="mignon">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&q=80" alt="Macaron">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Macaron Collection</h3>
+                            <span class="menu-item-price">2,50</span>
+                        </div>
+                        <p>Farina di mandorle siciliane, creme artigianali. Gusti stagionali che cambiano ogni mese.</p>
+                        <div class="menu-item-tags">
+                            <span>Senza Glutine</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item reveal-up" data-category="torte">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1612203985729-70726954388c?w=600&q=80" alt="Millefoglie">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Millefoglie Reale</h3>
+                            <span class="menu-item-price">42,00</span>
+                        </div>
+                        <p>Sfoglia caramellata a 729 strati, crema diplomatica alla vaniglia Tahiti, lamponi freschi.</p>
+                        <div class="menu-item-tags">
+                            <span>Signature</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item reveal-up" data-category="stagionali">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?w=600&q=80" alt="Panettone">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Panettone Artigianale</h3>
+                            <span class="menu-item-price">38,00</span>
+                        </div>
+                        <p>Lievito madre centenario, canditi siciliani, uvetta sultanina, burro di centrifuga. 72h di lavorazione.</p>
+                        <div class="menu-item-tags">
+                            <span>Stagionale</span>
+                            <span>Edizione Limitata</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item reveal-up" data-category="wedding">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1535254973040-607b474cb50d?w=600&q=80" alt="Wedding Cake">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Wedding Cake</h3>
+                            <span class="menu-item-price">Su preventivo</span>
+                        </div>
+                        <p>Torte nuziali su misura. Design personalizzato, degustazione inclusa, consegna e allestimento.</p>
+                        <div class="menu-item-tags">
+                            <span>Su Misura</span>
+                            <span>Consulenza Gratuita</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item reveal-up" data-category="viennoiserie">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1509365390695-33aee754301f?w=600&q=80" alt="Pain au Chocolat">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Pain au Chocolat</h3>
+                            <span class="menu-item-price">4,00</span>
+                        </div>
+                        <p>Due barrette di cioccolato fondente 64% avvolte in sfoglia al burro. Irresistibile.</p>
+                        <div class="menu-item-tags">
+                            <span>Classico</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item reveal-up" data-category="mignon">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1558326567-98ae2405596b?w=600&q=80" alt="Petit Four">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Petit Four Assortiti</h3>
+                            <span class="menu-item-price">35,00 / kg</span>
+                        </div>
+                        <p>Selezione di piccola pasticceria: bigne, tartellette, cannoli, bavarese e molto altro.</p>
+                        <div class="menu-item-tags">
+                            <span>Per Eventi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item reveal-up" data-category="torte">
+                    <div class="menu-item-image">
+                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80" alt="Cheesecake">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Cheesecake Passion</h3>
+                            <span class="menu-item-price">38,00</span>
+                        </div>
+                        <p>Philadelphia e mascarpone, coulis di frutto della passione, base di biscotto alle spezie.</p>
+                        <div class="menu-item-tags">
+                            <span>Novita</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col footer-brand">
+                        <h3 class="footer-logo">Dolce Vita</h3>
+                        <p>Pasticceria artigianale d'eccellenza dal 1987.</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Navigazione</h4>
+                        <ul><li><a href="index.html">Home</a></li><li><a href="about.html">Chi Siamo</a></li><li><a href="menu.html">Creazioni</a></li><li><a href="gallery.html">Galleria</a></li><li><a href="contact.html">Contatti</a></li></ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Orari</h4>
+                        <ul class="hours-list"><li><span>Lun - Ven</span><span>07:00 - 20:00</span></li><li><span>Sabato</span><span>07:30 - 21:00</span></li><li><span>Domenica</span><span>08:00 - 13:00</span></li></ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contatti</h4>
+                        <ul><li>Via Roma 42, 20121 Milano</li><li><a href="tel:+390212345678">+39 02 1234 5678</a></li><li><a href="mailto:info@dolcevita.it">info@dolcevita.it</a></li></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container"><p>2024 Dolce Vita Pasticceria. Tutti i diritti riservati.</p></div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/lenis/dist/lenis.min.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolce Vita | Pasticceria Artigianale d'Eccellenza</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-line"></div>
+            <div class="preloader-text">
+                <span class="preloader-word">DOLCE</span>
+                <span class="preloader-word">VITA</span>
+            </div>
+            <div class="preloader-counter">
+                <span id="preloader-number">0</span>%
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">Dolce Vita</span>
+                <span class="logo-sub">Pasticceria dal 1987</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link active" data-text="Home">Home</a></li>
+                <li><a href="about.html" class="nav-link" data-text="Chi Siamo">Chi Siamo</a></li>
+                <li><a href="menu.html" class="nav-link" data-text="Creazioni">Creazioni</a></li>
+                <li><a href="gallery.html" class="nav-link" data-text="Galleria">Galleria</a></li>
+                <li><a href="contact.html" class="nav-link" data-text="Contatti">Contatti</a></li>
+            </ul>
+            <a href="contact.html" class="nav-cta magnetic-btn">
+                <span>Prenota</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div id="mobileMenu" class="mobile-menu">
+        <div class="mobile-menu-bg"></div>
+        <div class="mobile-menu-content">
+            <ul class="mobile-nav-links">
+                <li><a href="index.html" class="mobile-link">Home</a></li>
+                <li><a href="about.html" class="mobile-link">Chi Siamo</a></li>
+                <li><a href="menu.html" class="mobile-link">Creazioni</a></li>
+                <li><a href="gallery.html" class="mobile-link">Galleria</a></li>
+                <li><a href="contact.html" class="mobile-link">Contatti</a></li>
+            </ul>
+            <div class="mobile-menu-footer">
+                <p>Via Roma 42, Milano</p>
+                <p>+39 02 1234 5678</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg-wrapper">
+            <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=1920&q=80')"></div>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-tag reveal-text">
+                <span class="line-decorator"></span>
+                <span>Pasticceria Artigianale</span>
+                <span class="line-decorator"></span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line"><span class="title-word" data-delay="0">L'Arte</span></span>
+                <span class="title-line"><span class="title-word" data-delay="1">della</span> <span class="title-word" data-delay="2">Dolcezza</span></span>
+            </h1>
+            <p class="hero-subtitle reveal-up">Dove ogni creazione racconta una storia di passione, tradizione e sapori autentici dal 1987</p>
+            <div class="hero-actions reveal-up" data-delay="0.6">
+                <a href="menu.html" class="btn btn-primary magnetic-btn"><span>Scopri le Creazioni</span></a>
+                <a href="about.html" class="btn btn-outline magnetic-btn"><span>La Nostra Storia</span></a>
+            </div>
+        </div>
+        
+        <div class="hero-float-badge">
+            <div class="badge-inner">
+                <svg viewBox="0 0 100 100" class="badge-svg">
+                    <path id="curve" d="M 50,50 m -37,0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="none"/>
+                    <text>
+                        <textPath href="#curve">ECCELLENZA ARTIGIANALE * DAL 1987 * </textPath>
+                    </text>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <section class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span class="marquee-item">Pasticceria Artigianale</span>
+                <span class="marquee-separator"></span>
+                <span class="marquee-item">Torte su Misura</span>
+                <span class="marquee-separator"></span>
+                <span class="marquee-item">Ingredienti Premium</span>
+                <span class="marquee-separator"></span>
+                <span class="marquee-item">Tradizione Italiana</span>
+                <span class="marquee-separator"></span>
+                <span class="marquee-item">Pasticceria Artigianale</span>
+                <span class="marquee-separator"></span>
+                <span class="marquee-item">Torte su Misura</span>
+                <span class="marquee-separator"></span>
+                <span class="marquee-item">Ingredienti Premium</span>
+                <span class="marquee-separator"></span>
+                <span class="marquee-item">Tradizione Italiana</span>
+                <span class="marquee-separator"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT TEASER -->
+    <section class="section section-about-teaser">
+        <div class="container">
+            <div class="about-teaser-grid">
+                <div class="about-teaser-left">
+                    <div class="section-label reveal-up">
+                        <span class="label-line"></span>
+                        <span>La Nostra Filosofia</span>
+                    </div>
+                    <h2 class="section-title reveal-up" data-splitting>
+                        Tre generazioni di <em>passione</em> per la pasticceria
+                    </h2>
+                    <p class="section-text reveal-up">
+                        Dal 1987, la famiglia Marchetti porta avanti una tradizione di eccellenza nella pasticceria artigianale. Ogni creazione nasce dalla selezione meticolosa delle materie prime, dalla maestria delle tecniche tradizionali e dall'innovazione che guarda al futuro.
+                    </p>
+                    <div class="about-stats reveal-up">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="37">0</span>
+                            <span class="stat-label">Anni di Esperienza</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="150">0</span>
+                            <span class="stat-label">Creazioni Uniche</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="12">0</span>
+                            <span class="stat-label">Premi Vinti</span>
+                        </div>
+                    </div>
+                    <a href="about.html" class="btn btn-dark magnetic-btn reveal-up"><span>Scopri di Pi&ugrave;</span></a>
+                </div>
+                <div class="about-teaser-right">
+                    <div class="image-reveal reveal-image">
+                        <img src="https://images.pexels.com/photos/2245293/pexels-photo-2245293.jpeg" alt="Pasticciere al lavoro">
+                    </div>
+                    <div class="floating-card">
+                        <span class="floating-card-title">Eccellenza</span>
+                        <span class="floating-card-text">Certificata dal Gambero Rosso</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS -->
+    <section class="section section-products" id="featuredProducts">
+        <div class="container">
+            <div class="section-header centered">
+                <div class="section-label reveal-up">
+                    <span class="label-line"></span>
+                    <span>Le Nostre Creazioni</span>
+                    <span class="label-line"></span>
+                </div>
+                <h2 class="section-title reveal-up">Specialit&agrave; della Casa</h2>
+                <p class="section-subtitle reveal-up">Ogni dolce &egrave; un capolavoro di gusto e bellezza</p>
+            </div>
+        </div>
+        <div class="products-showcase">
+            <div class="product-card reveal-up" data-delay="0">
+                <div class="product-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80" alt="Torta al Cioccolato">
+                    <div class="product-overlay">
+                        <a href="menu.html" class="product-discover">Scopri</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category">Torte</span>
+                    <h3 class="product-name">Fondente Noir</h3>
+                    <p class="product-desc">Cioccolato fondente 72%, ganache al cacao e foglie d'oro</p>
+                    <span class="product-price">da 45,00</span>
+                </div>
+            </div>
+            <div class="product-card reveal-up" data-delay="0.15">
+                <div class="product-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&q=80" alt="Croissant">
+                    <div class="product-overlay">
+                        <a href="menu.html" class="product-discover">Scopri</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category">Viennoiserie</span>
+                    <h3 class="product-name">Croissant Classico</h3>
+                    <p class="product-desc">Burro francese AOP, laminazione a 27 strati, lievitazione naturale</p>
+                    <span class="product-price">da 3,50</span>
+                </div>
+            </div>
+            <div class="product-card reveal-up" data-delay="0.3">
+                <div class="product-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&q=80" alt="Macaron">
+                    <div class="product-overlay">
+                        <a href="menu.html" class="product-discover">Scopri</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category">Petit Four</span>
+                    <h3 class="product-name">Macaron Collection</h3>
+                    <p class="product-desc">Farina di mandorle siciliane, creme artigianali stagionali</p>
+                    <span class="product-price">da 2,50</span>
+                </div>
+            </div>
+            <div class="product-card reveal-up" data-delay="0.45">
+                <div class="product-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1612203985729-70726954388c?w=600&q=80" alt="Millefoglie">
+                    <div class="product-overlay">
+                        <a href="menu.html" class="product-discover">Scopri</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-category">Classici</span>
+                    <h3 class="product-name">Millefoglie Reale</h3>
+                    <p class="product-desc">Sfoglia caramellata, crema diplomatica alla vaniglia Tahiti</p>
+                    <span class="product-price">da 6,00</span>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="text-align:center; margin-top: 60px;">
+            <a href="menu.html" class="btn btn-primary magnetic-btn reveal-up"><span>Tutte le Creazioni</span></a>
+        </div>
+    </section>
+
+    <!-- PARALLAX DIVIDER -->
+    <section class="parallax-divider" style="background-image: url('https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=1920&q=80')">
+        <div class="parallax-overlay"></div>
+        <div class="parallax-content">
+            <blockquote class="parallax-quote reveal-up">
+                <p>"La pasticceria non &egrave; solo un mestiere, &egrave; un atto d'amore verso chi assagger&agrave; le nostre creazioni."</p>
+                <cite>-- Marco Marchetti, Maestro Pasticciere</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- HORIZONTAL SCROLL SECTION -->
+    <section class="section section-process">
+        <div class="container">
+            <div class="section-header centered">
+                <div class="section-label reveal-up">
+                    <span class="label-line"></span>
+                    <span>Il Nostro Metodo</span>
+                    <span class="label-line"></span>
+                </div>
+                <h2 class="section-title reveal-up">Dall'Idea al Capolavoro</h2>
+            </div>
+        </div>
+        <div class="process-track">
+            <div class="process-cards">
+                <div class="process-card">
+                    <span class="process-number">01</span>
+                    <div class="process-icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="32" cy="32" r="28"/><path d="M32 18v14l10 6"/></svg>
+                    </div>
+                    <h3>Selezione</h3>
+                    <p>Scegliamo solo le migliori materie prime, dai produttori locali alle eccellenze internazionali.</p>
+                </div>
+                <div class="process-card">
+                    <span class="process-number">02</span>
+                    <div class="process-icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 44c0-8 6-12 12-12s12 4 12 12"/><circle cx="32" cy="24" r="8"/></svg>
+                    </div>
+                    <h3>Creazione</h3>
+                    <p>I nostri maestri pasticcieri trasformano gli ingredienti in opere d'arte commestibili.</p>
+                </div>
+                <div class="process-card">
+                    <span class="process-number">03</span>
+                    <div class="process-icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="14" y="14" width="36" height="36" rx="4"/><path d="M14 28h36M28 14v36"/></svg>
+                    </div>
+                    <h3>Decorazione</h3>
+                    <p>Ogni dettaglio viene curato con precisione maniacale, dalla glassa alle decorazioni.</p>
+                </div>
+                <div class="process-card">
+                    <span class="process-number">04</span>
+                    <div class="process-icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M32 12l6 12 14 2-10 10 2 14-12-6-12 6 2-14-10-10 14-2z"/></svg>
+                    </div>
+                    <h3>Perfezione</h3>
+                    <p>Il risultato finale supera ogni aspettativa: un'esperienza sensoriale indimenticabile.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section section-testimonials">
+        <div class="container">
+            <div class="section-header centered">
+                <div class="section-label reveal-up">
+                    <span class="label-line"></span>
+                    <span>Testimonianze</span>
+                    <span class="label-line"></span>
+                </div>
+                <h2 class="section-title reveal-up">Cosa Dicono di Noi</h2>
+            </div>
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.5 6.5H19l-5.3 4 2 6.5L10 14l-5.7 4 2-6.5L1 7.5h6.5z"/></svg>
+                            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.5 6.5H19l-5.3 4 2 6.5L10 14l-5.7 4 2-6.5L1 7.5h6.5z"/></svg>
+                            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.5 6.5H19l-5.3 4 2 6.5L10 14l-5.7 4 2-6.5L1 7.5h6.5z"/></svg>
+                            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.5 6.5H19l-5.3 4 2 6.5L10 14l-5.7 4 2-6.5L1 7.5h6.5z"/></svg>
+                            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.5 6.5H19l-5.3 4 2 6.5L10 14l-5.7 4 2-6.5L1 7.5h6.5z"/></svg>
+                        </div>
+                        <blockquote>"La migliore pasticceria di Milano, senza alcun dubbio. La torta per il nostro matrimonio era un vero capolavoro, sia esteticamente che nel gusto."</blockquote>
+                        <div class="testimonial-author">
+                            <strong>Francesca e Luca R.</strong>
+                            <span>Clienti Wedding</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.5 6.5H19l-5.3 4 2 6.5L10 14l-5.7 4 2-6.5L1 7.5h6.5z"/></svg>
+                            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.5 6.5H19l-5.3 4 2 6.5L10 14l-5.7 4 2-6.5L1 7.5h6.5z"/></svg>
+                            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.5 6.5H19l-5.3 4 2 6.5L10 14l-5.7 4 2-6.5L1 7.5h6.5z"/></svg>
+                            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.5 6.5H19l-5.3 4 2 6.5L10 14l-5.7 4 2-6.5L1 7.5h6.5z"/></svg>
+                            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.5 6.5H19l-5.3 4 2 6.5L10 14l-5.7 4 2-6.5L1 7.5h6.5z"/></svg>
+                        </div>
+                        <blockquote>"I croissant di Dolce Vita sono un'esperienza religiosa. Croccanti fuori, soffici dentro, con un profumo di burro che ti avvolge. Vengo ogni mattina."</blockquote>
+                        <div class="testimonial-author">
+                            <strong>Giorgio M.</strong>
+                            <span>Cliente Abituale</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.5 6.5H19l-5.3 4 2 6.5L10 14l-5.7 4 2-6.5L1 7.5h6.5z"/></svg>
+                            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.5 6.5H19l-5.3 4 2 6.5L10 14l-5.7 4 2-6.5L1 7.5h6.5z"/></svg>
+                            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.5 6.5H19l-5.3 4 2 6.5L10 14l-5.7 4 2-6.5L1 7.5h6.5z"/></svg>
+                            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.5 6.5H19l-5.3 4 2 6.5L10 14l-5.7 4 2-6.5L1 7.5h6.5z"/></svg>
+                            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.5 6.5H19l-5.3 4 2 6.5L10 14l-5.7 4 2-6.5L1 7.5h6.5z"/></svg>
+                        </div>
+                        <blockquote>"Come chef, sono molto esigente. I macaron di Dolce Vita raggiungono livelli parigini. Una perfezione tecnica e gustativa rara in Italia."</blockquote>
+                        <div class="testimonial-author">
+                            <strong>Chef Alessandro B.</strong>
+                            <span>Ristorante Stellato</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-btn prev" id="testimonialPrev" aria-label="Precedente">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                </button>
+                <div class="testimonial-dots" id="testimonialDots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="testimonial-btn next" id="testimonialNext" aria-label="Successivo">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- INSTAGRAM / CTA -->
+    <section class="section section-cta">
+        <div class="cta-bg" style="background-image: url('https://images.unsplash.com/photo-1558326567-98ae2405596b?w=1920&q=80')"></div>
+        <div class="cta-overlay"></div>
+        <div class="cta-content">
+            <div class="section-label reveal-up" style="color: #c9a96e;">
+                <span class="label-line" style="background: #c9a96e;"></span>
+                <span>Vieni a Trovarci</span>
+                <span class="label-line" style="background: #c9a96e;"></span>
+            </div>
+            <h2 class="cta-title reveal-up">Prenota la Tua<br>Esperienza Dolce</h2>
+            <p class="cta-text reveal-up">Creazioni personalizzate per ogni occasione speciale. Torte nuziali, eventi aziendali, compleanni e momenti unici.</p>
+            <div class="cta-actions reveal-up">
+                <a href="contact.html" class="btn btn-gold magnetic-btn"><span>Prenota Ora</span></a>
+                <a href="tel:+390212345678" class="btn btn-outline-light magnetic-btn"><span>+39 02 1234 5678</span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col footer-brand">
+                        <h3 class="footer-logo">Dolce Vita</h3>
+                        <p>Pasticceria artigianale d'eccellenza. Tre generazioni di passione, tradizione e innovazione al servizio del gusto.</p>
+                        <div class="footer-social">
+                            <a href="#" class="social-link magnetic-btn" aria-label="Instagram">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+                            </a>
+                            <a href="#" class="social-link magnetic-btn" aria-label="Facebook">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                            </a>
+                            <a href="#" class="social-link magnetic-btn" aria-label="Pinterest">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 21c1-3 2-6 2-8 0-2-1-3 1-5s5-1 5 2c0 2-1 4-2 6l3 5"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Navigazione</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">Chi Siamo</a></li>
+                            <li><a href="menu.html">Creazioni</a></li>
+                            <li><a href="gallery.html">Galleria</a></li>
+                            <li><a href="contact.html">Contatti</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Orari</h4>
+                        <ul class="hours-list">
+                            <li><span>Lun - Ven</span><span>07:00 - 20:00</span></li>
+                            <li><span>Sabato</span><span>07:30 - 21:00</span></li>
+                            <li><span>Domenica</span><span>08:00 - 13:00</span></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contatti</h4>
+                        <ul>
+                            <li>Via Roma 42, 20121 Milano</li>
+                            <li><a href="tel:+390212345678">+39 02 1234 5678</a></li>
+                            <li><a href="mailto:info@dolcevita.it">info@dolcevita.it</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>2024 Dolce Vita Pasticceria. Tutti i diritti riservati.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookie Policy</a>
+                    <a href="#">P.IVA 01234567890</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/lenis/dist/lenis.min.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

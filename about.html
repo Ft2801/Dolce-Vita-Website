@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Siamo | Dolce Vita Pasticceria</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-line"></div>
+            <div class="preloader-text">
+                <span class="preloader-word">DOLCE</span>
+                <span class="preloader-word">VITA</span>
+            </div>
+            <div class="preloader-counter">
+                <span id="preloader-number">0</span>%
+            </div>
+        </div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">Dolce Vita</span>
+                <span class="logo-sub">Pasticceria dal 1987</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link" data-text="Home">Home</a></li>
+                <li><a href="about.html" class="nav-link active" data-text="Chi Siamo">Chi Siamo</a></li>
+                <li><a href="menu.html" class="nav-link" data-text="Creazioni">Creazioni</a></li>
+                <li><a href="gallery.html" class="nav-link" data-text="Galleria">Galleria</a></li>
+                <li><a href="contact.html" class="nav-link" data-text="Contatti">Contatti</a></li>
+            </ul>
+            <a href="contact.html" class="nav-cta magnetic-btn"><span>Prenota</span></a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+                <span class="toggle-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div id="mobileMenu" class="mobile-menu">
+        <div class="mobile-menu-bg"></div>
+        <div class="mobile-menu-content">
+            <ul class="mobile-nav-links">
+                <li><a href="index.html" class="mobile-link">Home</a></li>
+                <li><a href="about.html" class="mobile-link">Chi Siamo</a></li>
+                <li><a href="menu.html" class="mobile-link">Creazioni</a></li>
+                <li><a href="gallery.html" class="mobile-link">Galleria</a></li>
+                <li><a href="contact.html" class="mobile-link">Contatti</a></li>
+            </ul>
+            <div class="mobile-menu-footer">
+                <p>Via Roma 42, Milano</p>
+                <p>+39 02 1234 5678</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=1920&q=80')"></div>
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            
+            <h1 class="page-hero-title">
+                <span class="title-line"><span class="title-word">La Nostra</span></span>
+                <span class="title-line"><span class="title-word">Storia</span></span>
+            </h1>
+        </div>
+    </section>
+
+    <!-- STORY SECTION -->
+    <section class="section section-story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-content">
+                    <div class="section-label reveal-up">
+                        <span class="label-line"></span>
+                        <span>Dal 1987</span>
+                    </div>
+                    <h2 class="section-title reveal-up">Un Viaggio nel <em>Gusto</em></h2>
+                    <div class="story-text">
+                        <p class="reveal-up">Tutto ebbe inizio nel 1987, quando il giovane Marco Marchetti, dopo anni di apprendistato nelle migliori pasticcerie parigine, decise di tornare nella sua amata Milano per aprire il proprio laboratorio.</p>
+                        <p class="reveal-up">Con un piccolo locale in Via Roma e un grande sogno, Marco inizio a creare dolci che univano la raffinatezza della tradizione francese con la generosita dei sapori italiani.</p>
+                        <p class="reveal-up">Oggi, tre generazioni dopo, Dolce Vita e diventata un punto di riferimento per l'eccellenza pasticciera a Milano e non solo. Il figlio Alessandro e la nipote Giulia continuano a portare avanti la tradizione di famiglia, aggiungendo innovazione e creativita senza mai tradire i valori fondanti.</p>
+                    </div>
+                </div>
+                <div class="story-images">
+                    <div class="story-image-main reveal-image">
+                        <img src="https://images.pexels.com/photos/4942503/pexels-photo-4942503.jpeg?w=800&q=80" alt="Il nostro laboratorio">
+                    </div>
+                    <div class="story-image-secondary reveal-image">
+                        <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?w=400&q=80" alt="Ingredienti selezionati">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="section section-timeline">
+        <div class="container">
+            <div class="section-header centered">
+                <h2 class="section-title reveal-up">I Nostri Traguardi</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal-up" data-delay="0">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">1987</span>
+                        <h3>L'Apertura</h3>
+                        <p>Marco Marchetti apre il primo laboratorio in Via Roma. Un piccolo locale di 40 mq che diventer&agrave; leggenda.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-up" data-delay="0.1">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">1995</span>
+                        <h3>Primo Riconoscimento</h3>
+                        <p>Il Gambero Rosso premia Dolce Vita come migliore pasticceria emergente della Lombardia.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-up" data-delay="0.2">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2005</span>
+                        <h3>La Nuova Sede</h3>
+                        <p>Inaugurazione del nuovo laboratorio e della sala degustazione. Lo spazio triplica.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-up" data-delay="0.3">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2015</span>
+                        <h3>Seconda Generazione</h3>
+                        <p>Alessandro Marchetti entra in azienda portando innovazione e nuove tecniche di pasticceria moderna.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-up" data-delay="0.4">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2024</span>
+                        <h3>L'Eccellenza Continua</h3>
+                        <p>Terza generazione, 12 premi internazionali e la stessa passione del primo giorno.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="section section-team">
+        <div class="container">
+            <div class="section-header centered">
+                <div class="section-label reveal-up">
+                    <span class="label-line"></span>
+                    <span>Il Nostro Team</span>
+                    <span class="label-line"></span>
+                </div>
+                <h2 class="section-title reveal-up">I Maestri Pasticcieri</h2>
+            </div>
+            <div class="team-grid">
+                <div class="team-card reveal-up" data-delay="0">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=500&q=80" alt="Marco Marchetti">
+                    </div>
+                    <div class="team-info">
+                        <h3>Marco Marchetti</h3>
+                        <span>Fondatore e Maestro Pasticciere</span>
+                        <p>37 anni di esperienza. Formato a Parigi da Pierre Herme. Il cuore e l'anima di Dolce Vita.</p>
+                    </div>
+                </div>
+                <div class="team-card reveal-up" data-delay="0.15">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=500&q=80" alt="Alessandro Marchetti">
+                    </div>
+                    <div class="team-info">
+                        <h3>Alessandro Marchetti</h3>
+                        <span>Head Pastry Chef</span>
+                        <p>Innovatore con rispetto per la tradizione. Specializzato in dessert al piatto e chocolate art.</p>
+                    </div>
+                </div>
+                <div class="team-card reveal-up" data-delay="0.3">
+                    <div class="team-image">
+                        <img src="https://images.pexels.com/photos/3983580/pexels-photo-3983580.jpeg?" alt="Giulia Marchetti">
+                    </div>
+                    <div class="team-info">
+                        <h3>Giulia Marchetti</h3>
+                        <span>Pastry Designer</span>
+                        <p>Terza generazione. Laureata in Design, porta un approccio artistico unico alla pasticceria.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VALUES -->
+    <section class="section section-values">
+        <div class="container">
+            <div class="values-grid">
+                <div class="value-card reveal-up" data-delay="0">
+                    <span class="value-number">01</span>
+                    <h3>Artigianalit&agrave;</h3>
+                    <p>Ogni prodotto &egrave; fatto a mano, senza scorciatoie industriali. Tempo, cura e dedizione in ogni creazione.</p>
+                </div>
+                <div class="value-card reveal-up" data-delay="0.1">
+                    <span class="value-number">02</span>
+                    <h3>Eccellenza</h3>
+                    <p>Solo le migliori materie prime: burro francese AOP, vaniglia del Madagascar, cioccolato Valrhona.</p>
+                </div>
+                <div class="value-card reveal-up" data-delay="0.2">
+                    <span class="value-number">03</span>
+                    <h3>Innovazione</h3>
+                    <p>Rispettiamo la tradizione ma guardiamo al futuro. Nuove tecniche e sapori per sorprendere sempre.</p>
+                </div>
+                <div class="value-card reveal-up" data-delay="0.3">
+                    <span class="value-number">04</span>
+                    <h3>Sostenibilit&agrave;</h3>
+                    <p>Packaging eco-friendly, ingredienti a km zero quando possibile, zero sprechi nel nostro laboratorio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col footer-brand">
+                        <h3 class="footer-logo">Dolce Vita</h3>
+                        <p>Pasticceria artigianale d'eccellenza dal 1987.</p>
+                        <div class="footer-social">
+                            <a href="#" class="social-link magnetic-btn" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg></a>
+                            <a href="#" class="social-link magnetic-btn" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Navigazione</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">Chi Siamo</a></li>
+                            <li><a href="menu.html">Creazioni</a></li>
+                            <li><a href="gallery.html">Galleria</a></li>
+                            <li><a href="contact.html">Contatti</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Orari</h4>
+                        <ul class="hours-list">
+                            <li><span>Lun - Ven</span><span>07:00 - 20:00</span></li>
+                            <li><span>Sabato</span><span>07:30 - 21:00</span></li>
+                            <li><span>Domenica</span><span>08:00 - 13:00</span></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contatti</h4>
+                        <ul>
+                            <li>Via Roma 42, 20121 Milano</li>
+                            <li><a href="tel:+390212345678">+39 02 1234 5678</a></li>
+                            <li><a href="mailto:info@dolcevita.it">info@dolcevita.it</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>2024 Dolce Vita Pasticceria. Tutti i diritti riservati.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/lenis/dist/lenis.min.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
